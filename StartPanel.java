@@ -20,7 +20,7 @@ public class StartPanel extends JPanel implements ActionListener{
     private JPanel mainPanel;
 
     StartPanel(CardLayout cardLayout, JPanel mainPanel){
-        this.setSize(500,500);
+        this.setPreferredSize(new Dimension(500,500));
         this.setBackground(new Color(0xF0F4F8));
         this.setLayout(new BorderLayout());
         this.cardLayout = cardLayout;
