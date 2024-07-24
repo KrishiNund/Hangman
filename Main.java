@@ -31,6 +31,7 @@ public class Main{
         GamePanel gamePanel = new GamePanel(cardLayout,mainPanel);
         gamePanel.drawLetters();
         gamePanel.chooseWord();
+        gamePanel.drawAnswerGrids();
         
         //adding both panels to main panel
         mainPanel.add(startPanel,"Start Panel");

@@ -10,7 +10,7 @@ public class MyFrame extends JFrame{
         this.setTitle("Hangman");
         this.setSize(500,500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //close the app when x is pressed
-        this.setResizable(true); //prevent frame from being resized
+        this.setResizable(false); //prevent frame from being resized
         this.setLocationRelativeTo(null); //center frame whenever it pops up
 
         ImageIcon logo = new ImageIcon("rope.png"); //create an image icon
