@@ -27,7 +27,7 @@ public class StartPanel extends JPanel implements ActionListener{
         this.mainPanel = mainPanel;
     }
 
-    
+    //add title of game at the top
     public void addGameTitle(){
         JPanel topLayer = new JPanel();
         topLayer.setLayout(new GridBagLayout());
@@ -45,6 +45,7 @@ public class StartPanel extends JPanel implements ActionListener{
         this.add(topLayer, BorderLayout.NORTH);
     }
 
+    //add start button in the center
     public void addStartButton(){
         JPanel centerLayer = new JPanel();
         centerLayer.setLayout(new GridBagLayout());
@@ -63,12 +64,14 @@ public class StartPanel extends JPanel implements ActionListener{
         this.add(centerLayer, BorderLayout.CENTER);
     }
 
+    //start game when button is pressed
     public void actionPerformed(ActionEvent e){
         if(e.getSource() == startButton){
             cardLayout.show(mainPanel, "Game Panel");
         }
     }
 
+    //add a copyright footer on start page
     public void addFooter(){
         JPanel bottomLayer = new JPanel();
         bottomLayer.setLayout(new GridBagLayout());

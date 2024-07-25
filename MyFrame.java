@@ -1,11 +1,8 @@
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
-
-//import java.awt.Color;
-
 public class MyFrame extends JFrame{
-    
+    //initialize frame attributes
     MyFrame(){
         this.setTitle("Hangman");
         this.setSize(500,500);
@@ -15,7 +12,5 @@ public class MyFrame extends JFrame{
 
         ImageIcon logo = new ImageIcon("rope.png"); //create an image icon
         this.setIconImage(logo.getImage()); //change icon logo of frame
-
-        //this.getContentPane().setBackground(new Color(0xFFC107));
     }
 }

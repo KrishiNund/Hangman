@@ -6,6 +6,7 @@ import javax.swing.UIManager;
 public class Main{
     public static void main(String[] args){
 
+        //changing look and feel of Java application
         try{
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } 
